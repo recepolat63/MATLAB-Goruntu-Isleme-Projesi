@@ -1,3 +1,4 @@
+## -TR-
 # Plaka Tanima Sistemi (MATLAB)
 Bu proje, araç görselleri üzerinden **plaka tespiti ve OCR ile plaka karakterlerinin okunmasını sağlayan** bir MATLAB tabanlı araç plaka tanıma sistemidir. Grafik arayüz (GUI) ile çalışır ve görselleri otomatik olarak analiz eder. Proje OCR tabanlıdır ve farklı yöntemlerle plaka bölgesini tespit etmeye çalışır.
 
@@ -49,8 +50,72 @@ PlakaTanimaSistemi/
 
 ## 👨‍💻 Geliştirici
 
- **Recep POLAT GitHub: @recepolat63**
+**Recep POLAT  
+GitHub: [@recepolat63](https://github.com/recepolat63)**
+
 
 ## 📝 Lisans
 
 Bu proje açık kaynaklıdır ve kişisel, akademik amaçlarla serbestçe kullanılabilir. Ticari kullanım için geliştiriciyle iletişime geçilmesi tavsiye edilir.
+
+## -EN-
+# License Plate Recognition System (MATLAB)
+
+This project is a **MATLAB-based license plate recognition system** that detects license plates in vehicle images and reads plate characters using OCR. It operates through a graphical user interface (GUI) and analyzes images automatically. The project uses OCR as its core and applies multiple methods to locate the plate region.
+
+## 🚀 Project Features
+
+- User-friendly graphical interface (GUI)
+- 3 different plate detection methods (standard, aggressive, extra)
+- Advanced OCR improvements
+- Analysis optimized for Turkish plate formats
+- Automatic correction of incorrect OCR results
+- Image upload and analysis button
+
+## 🧩 Required Toolboxes
+
+To run this project, the following MATLAB toolboxes must be installed:
+
+- **Image Processing Toolbox**
+- **Computer Vision Toolbox**
+
+If these toolboxes are not included in your MATLAB installation, you can add them via the MATLAB Add-On Manager.
+
+## 📂 Project File Structure
+LicensePlateRecognitionSystem/
+│
+├── PlakaTanimaProjesi.m # Main script file containing the entire system
+├── Project Code.txt # Code as plain text (backup)
+├── Plate Images/ # Sample vehicle images for testing
+└── README.md # This document
+
+## ⚙️ Setup
+
+1. Open MATLAB.
+2. Download or unzip this repository to your computer.
+3. In MATLAB, set the folder containing `PlakaTanimaProjesi.m` as the **Current Folder**.
+4. Open `PlakaTanimaProjesi.m` and run it (either click **Run** or type `plakaMenusu()` in the command window).
+
+## 🧪 Usage
+
+1. When the program runs, the GUI screen will open.
+2. In the main menu, click **"Upload Photo"**.
+3. Select a vehicle image (samples are located in the `Plate Images` folder).
+4. The selected image will be analyzed, the detected plate will be shown, and the OCR result will be displayed on the screen.
+
+## ❗️ Errors or Warnings
+
+- If you see **"No OCR result"** or **"Plate could not be detected"**, try using a different image.
+- The algorithm may fail on very low-quality images.
+- The program won't run without the required toolboxes.
+
+## 👨‍💻 Developer
+
+**Recep POLAT  
+GitHub: [@recepolat63](https://github.com/recepolat63)**
+
+## 📝 License
+
+This project is open-source and may be freely used for personal or academic purposes.  
+For commercial use, please contact the developer.
+

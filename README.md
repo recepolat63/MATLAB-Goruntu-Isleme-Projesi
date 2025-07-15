@@ -1,1 +1,1 @@
-# MATLAB-Goruntu-sleme-Projesi
+# MATLAB-Goruntu-Isleme-Projesi

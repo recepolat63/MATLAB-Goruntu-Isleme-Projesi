@@ -49,8 +49,7 @@ PlakaTanimaSistemi/
 
 ## 👨‍💻 Geliştirici
 
-- **Recep Polat**
-- Bu proje bireysel olarak geliştirilmiştir ve eğitim/demonstrasyon amaçlıdır.
+ **Recep POLAT GitHub: @recepolat63**
 
 ## 📝 Lisans
 
